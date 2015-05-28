@@ -16,4 +16,8 @@
 //= require foundation
 //= require turbolinks
 //= require jquery-readyselector
+//= require stack-blur
+
+//= require_tree .
+
 $(function(){ $(document).foundation(); });
