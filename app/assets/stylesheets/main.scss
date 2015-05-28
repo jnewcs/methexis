@@ -1,0 +1,27 @@
+header {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+.button-group a {
+  background-color: transparent;
+  color: #333;
+  margin-top: 10px;
+}
+
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: image-url("relay.jpg");
+  height: 80%;
+  width: 100%;
+}
+
+.intro-text {
+  padding-top: 18%;
+  text-align: center;
+}
+
+.about {
+  padding-top: 2%;  
+}
+
