@@ -16,6 +16,8 @@
 //= require foundation
 //= require turbolinks
 //= require jquery-readyselector
+//= require jquery.event.move
+//= require jquery.twentytwenty
 //= require stack-blur
 
 //= require_tree .

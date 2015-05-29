@@ -17,3 +17,4 @@ $(document).ready ->
     canvasContext.drawImage(canvasBackground, 0, 0, w, h)
     stackBlurCanvasRGBA("hero-canvas", 0, 0, w, h, BLUR_RADIUS)
 
+  $("#container").twentytwenty()

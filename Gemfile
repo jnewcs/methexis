@@ -28,11 +28,13 @@ gem 'coffee-script-source', '1.9.1.1'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jquery-turbolinks'
+gem 'sprockets-rails'
 gem 'figaro'
 gem 'font-awesome-rails'
 gem 'passenger'
 gem 'ace-rails-ap'
 gem 'foundation-rails'
+gem 'compass-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
