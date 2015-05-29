@@ -4,7 +4,11 @@
 
 $(document).ready ->
   setTimeout (->
-    $("#container").twentytwenty()
+    $("#diff-container-1").twentytwenty()
+  ), 100
+  
+  setTimeout (->
+    $("#diff-container-2").twentytwenty()
   ), 100
   
   BLUR_RADIUS = 50
