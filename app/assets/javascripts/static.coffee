@@ -3,6 +3,10 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $(document).ready ->
+  setTimeout (->
+    $("#container").twentytwenty()
+  ), 100
+  
   BLUR_RADIUS = 50
   canvas = document.getElementById("hero-canvas")
   canvasContext = canvas.getContext("2d")
@@ -17,4 +21,3 @@ $(document).ready ->
     canvasContext.drawImage(canvasBackground, 0, 0, w, h)
     stackBlurCanvasRGBA("hero-canvas", 0, 0, w, h, BLUR_RADIUS)
 
-  $("#container").twentytwenty()
