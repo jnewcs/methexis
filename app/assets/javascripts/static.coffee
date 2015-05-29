@@ -5,11 +5,11 @@
 $(document).ready ->
   setTimeout (->
     $("#diff-container-1").twentytwenty()
-  ), 100
+  ), 300
   
   setTimeout (->
     $("#diff-container-2").twentytwenty()
-  ), 100
+  ), 300
   
   BLUR_RADIUS = 50
   canvas = document.getElementById("hero-canvas")
