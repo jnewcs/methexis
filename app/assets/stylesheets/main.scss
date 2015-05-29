@@ -11,7 +11,7 @@ header {
 
 .hero {
   position: relative;
-  height: 50%;
+  height: 60%;
   width: 100%;
   padding: 2em 0;
 }
@@ -29,16 +29,24 @@ header {
   position: relative; // Positions the text on top of the canvas
   z-index: 2;
   text-align: center;
-  font-size: 5em;
+  font-size: 3em;
+  padding-top: 10%;
   color: white;
 }
 
-.intro-text {
-  padding-top: 18%;
+.hero_title_small {
+  position: relative; // Positions the text on top of the canvas
+  z-index: 2;
   text-align: center;
+  font-size: 1.8em;
+  padding-top: 1%;
+  color: white;
 }
 
 #about {
   padding-top: 2%;  
 }
 
+#project {
+  margin-bottom: 5%;
+}
