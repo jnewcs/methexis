@@ -35,6 +35,7 @@ gem 'passenger'
 gem 'ace-rails-ap'
 gem 'foundation-rails'
 gem 'compass-rails'
+gem "autoprefixer-rails" # adds vendor prefixes to css
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

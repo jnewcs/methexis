@@ -3,14 +3,6 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $(document).ready ->
-  setTimeout (->
-    $("#diff-container-1").twentytwenty()
-  ), 300
-  
-  setTimeout (->
-    $("#diff-container-2").twentytwenty()
-  ), 300
-  
   BLUR_RADIUS = 50
   canvas = document.getElementById("hero-canvas")
   canvasContext = canvas.getContext("2d")
@@ -24,4 +16,22 @@ $(document).ready ->
 
     canvasContext.drawImage(canvasBackground, 0, 0, w, h)
     stackBlurCanvasRGBA("hero-canvas", 0, 0, w, h, BLUR_RADIUS)
+    
+  setTimeout (->
+    $("#diff-container-1").twentytwenty()
+  ), 300
+  
+  setTimeout (->
+    $("#diff-container-2").twentytwenty()
+  ), 300
+  
+  $(".hagia-full").mousemove (e) ->
+    e.preventDefault()
 
+  $(".hagia-full-container").mouseenter (e) ->
+    $(".hagia-full-overlay").css "opacity", "1"
+    
+  $(".hagia-full-container").mouseleave (e) ->
+    $(".hagia-full-overlay").css "opacity", "0"
+    
+    
