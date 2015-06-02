@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
 }
 
 header {
@@ -64,7 +64,7 @@ header {
     width: 284px;
   }
   
-  .hagia-full-overlay {
+  .hagia-full-overlay, .riha-overlay {
     background-color: rgba(0, 0, 0, 0.8);;
     position: absolute;
     top: 0px;
@@ -76,6 +76,19 @@ header {
     padding-top: 48%;
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
+  }
+  
+  .riha-container {
+    height: 375px;
+    width: 344px;
+    float: right;
+    margin: 12px 5px 20px 20px;
+    position: relative;
+  }
+  
+  .riha {
+    height: 375px;
+    width: 344px;
   }
   
   p {

@@ -25,6 +25,8 @@ $(document).ready ->
     $("#diff-container-2").twentytwenty()
   ), 300
   
+  $(window).resize()
+  
   $(".hagia-full").mousemove (e) ->
     e.preventDefault()
 
@@ -33,5 +35,14 @@ $(document).ready ->
     
   $(".hagia-full-container").mouseleave (e) ->
     $(".hagia-full-overlay").css "opacity", "0"
+    
+  $(".riha").mousemove (e) ->
+    e.preventDefault()
+
+  $(".riha-container").mouseenter (e) ->
+    $(".riha-overlay").css "opacity", "1"
+    
+  $(".riha-container").mouseleave (e) ->
+    $(".riha-overlay").css "opacity", "0"
     
     
