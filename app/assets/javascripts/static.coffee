@@ -20,6 +20,7 @@ $(document).ready ->
   $("#diff-container-1").twentytwenty()
   setTimeout (->
     $("#diff-container-1").twentytwenty()
+    $("#diff-container-1").css "height", "auto"
   ), 300
   
 
@@ -27,6 +28,7 @@ $(document).ready ->
   
   setTimeout (->
     $("#diff-container-2").twentytwenty()
+    $("#diff-container-2").css "height", "auto"
   ), 300
   
     
