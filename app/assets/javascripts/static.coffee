@@ -17,16 +17,19 @@ $(document).ready ->
     canvasContext.drawImage(canvasBackground, 0, 0, w, h)
     stackBlurCanvasRGBA("hero-canvas", 0, 0, w, h, BLUR_RADIUS)
     
+  $("#diff-container-1").twentytwenty()
   setTimeout (->
     $("#diff-container-1").twentytwenty()
   ), 300
+  
+
+  $("#diff-container-2").twentytwenty()
   
   setTimeout (->
     $("#diff-container-2").twentytwenty()
   ), 300
   
-  $(window).resize()
-  
+    
   $(".hagia-full").mousemove (e) ->
     e.preventDefault()
 
