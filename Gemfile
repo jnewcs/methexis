@@ -9,7 +9,7 @@ group :development do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.1'
 end
 
 group :production do
